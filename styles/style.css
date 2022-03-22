@@ -1,10 +1,62 @@
-h1{
+h1, a, p, h2, h3, div, label, textarea, header, footer, body{
 
     font-family: 'Gothic A1', sans-serif;
 }
-.red{
-    color:rgba(35, 16, 245, 0.591);
+.title{
+    color:rgba(108, 118, 255, 0.911);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    background-color: #e3eeff00;
 }
 
-#hisecond{color:rgba(103, 115, 245, 0.653);
+#hisecond{color:rgba(255, 255, 255, 0.892);
 }
+
+#caption{
+    color:rgba(255, 255, 255, 0.892);
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img{
+    display: flex;
+     align-items: center;
+
+}
+
+#guestbook .submit input {
+     box-sizing: border-box; 
+     width: 100%; 
+     font-size: 1rem; 
+     margin-bottom: 5px; 
+     padding: 5px;
+     border: 0px solid rgba(221, 221, 221, 0.308); border-radius: 5px; 
+     cursor: pointer; } 
+
+#guestbook .submit input:hover { 
+    background: rgba(76, 94, 255, 0.281); }
+
+.blur {
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
